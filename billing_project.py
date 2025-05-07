@@ -11,20 +11,26 @@ i=int(input("enter item number :"))
 if i<=0:
         print("       ERROR       ")
         print("ITEM DOES NOT EXIST")
-
+        print("program will continue with errors")
+        print(" restart program to continue normally")
 elif i>=3:
 
         print("       ERROR       ")
-        print("ITEM DOES NOT EXIST")
-h=0
+        print(" ITEM DOES NOT EXIST")
+        print("program will continue with errors")
+        print(" restart program to continue normally")
+
+
+
 if i==1:
-       h+500
-elif:
-   h+2000
-i2=int(input("enter quantity"))
 
-cost=h*i2s
+        i2=int(input("enter quantity"))
+        cost=i2*500
+elif i == 2 :
 
+        i2=int(input("enter quantity"))
+
+        cost=i2*2000
    
 
 
@@ -41,13 +47,17 @@ elif i2 >= 12:
 else:
     discount =  2 / 100
 
-SGST = 18 / 100
-CGST = 18 / 100
+SGST = 12 / 100
+CGST = 12 / 100
 product_SGST = cost * SGST
 product_CGST = cost * CGST
 product_discount =cost * discount
-
-print("         purchase again        ")
-print("  total items purchased cost")
-        
-
+amount=int(input("enter amount to be paid"))
+print("----------------------------------------------")
+print("|               purchase again        |")
+print("| total items purchased cost  :",cost,"  |")
+print("| sgst                        :",SGST," |")
+print("| cgst                        :",CGST," |")
+print("| discount in  %              :",discount," |")
+print("| amount to be paid            :",amount,"  |")
+print("----------------------------------------------")

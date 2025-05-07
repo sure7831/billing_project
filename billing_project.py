@@ -1,4 +1,5 @@
 item_1=500
+item_2=2000
 
 print("welcome_to_Billing_project")
 
@@ -15,10 +16,14 @@ elif i>=3:
 
         print("       ERROR       ")
         print("ITEM DOES NOT EXIST")
-
+h=0
+if i==1:
+       h+500
+elif:
+   h+2000
 i2=int(input("enter quantity"))
 
-cost=i*i2s
+cost=h*i2s
 
    
 

@@ -24,11 +24,11 @@ elif i>=3:
 
 if i==1:
 
-        i2=int(input("enter quantity"))
+        i2=int(input("enter quantity :"))
         cost=i2*500
 elif i == 2 :
 
-        i2=int(input("enter quantity"))
+        i2=int(input("enter quantity :"))
 
         cost=i2*2000
    
@@ -52,7 +52,7 @@ CGST = 12 / 100
 product_SGST = cost * SGST
 product_CGST = cost * CGST
 product_discount =cost * discount
-amount=int(input("enter amount to be paid"))
+amount=int(input("enter amount to be paid :"))
 print("----------------------------------------------")
 print("|               purchase again        |")
 print("| total items purchased cost  :",cost,"  |")
